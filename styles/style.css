@@ -10,21 +10,29 @@ body {
 }
 
 aside {
-  flex: 5%;
-  background: #4b5694;
+  flex: 2%;
+  background: #1a273a;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 5px;
   color: #ebf4dd;
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
 }
 
 aside .main-menu {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25px;
+  gap: 40px;
+}
+
+aside .main-menu .logo  img {
+  height: 80px;
 }
 
 aside .main-menu div,
@@ -35,12 +43,38 @@ aside .logout {
   cursor: pointer;
 }
 
+aside div i {
+  font-size: 30px;
+} 
+
 aside div p {
   text-transform: capitalize;
 }
 
 main {
-  flex: 95%;
+  flex: 98%;
+  padding: 20px;
+  margin-left: 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+
+main .feed {
+  flex: 65%;
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+main .trending {
+  flex: 35%;
+  background: #fff1c26a;
+  border-radius: 20px;
   padding: 20px;
 }
 
