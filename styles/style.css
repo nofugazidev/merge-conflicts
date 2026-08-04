@@ -52,32 +52,40 @@ aside div p {
 }
 
 main {
-  flex: 98%;
-  padding: 20px;
-  margin-left: 120px;
-  display: flex;
-  justify-content: space-between;
-  gap: 40px;
   position: fixed;
-  height: 100vh;
-  left: 0;
   top: 0;
+  left: 120px;        
+  width: calc(100vw - 120px - 60px);
+  height: 100vh;
+
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 main .feed {
-  flex: 65%;
+  flex: 0 0 65%;
   height: 100%;
   overflow-y: auto;
   scrollbar-width: none;
 }
 
+main .feed .blogs {
+  margin-top: 80px;
+}
+
 main .trending {
-  flex: 35%;
+  flex: 0 0 35%;
+  height: 90%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  margin-top: 80px;
   background: #fff1c26a;
   border-radius: 20px;
   padding: 20px;
+  box-sizing: border-box;
 }
-
 /*  modal styles */
 .new-post-modal, .profile-modal, .logout-modal {
   position: fixed;
@@ -96,10 +104,13 @@ main .trending {
 }
 
 .new-post-modal .post-content, .profile-modal .modal-content, .logout-modal .logout-content {
-  width: 30vw;
-  height: 80vh;
+  max-width: 30vw;
+  max-height: 80vh;
   background: white;
   padding: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 

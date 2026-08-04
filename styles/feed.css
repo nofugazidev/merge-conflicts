@@ -1,0 +1,11 @@
+.content .feed .header {
+    position: fixed;
+    background:  #E3F1FB ;
+    padding: 20px;
+    width: 100%;
+}
+
+.content .feed .header h3 {
+    text-transform: uppercase;
+    font-weight: 100;
+}

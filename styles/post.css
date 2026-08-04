@@ -1,0 +1,49 @@
+.new-post-modal .post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 40px;
+}
+
+.new-post-modal .post-content h1 {
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.new-post-modal .post-content .post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 100%;
+}
+
+.new-post-modal .post-content .post-form .title,
+.new-post-modal .post-content .post-form .post-text,
+.new-post-modal .post-content .post-form .submit-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.new-post-modal .post-content .post-form label {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.new-post-modal .post-content .post-form input, .new-post-modal .post-content .post-form textarea {
+    border: 1px solid #bebcbc;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+.new-post-modal .post-content .post-form .submit-btn {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
