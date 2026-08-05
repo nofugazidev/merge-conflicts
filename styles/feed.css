@@ -6,6 +6,6 @@
 }
 
 .content .feed .header h3 {
-    text-transform: uppercase;
-    font-weight: 300;
+    text-transform: lowercase;
+    font-weight: 600;
 }
