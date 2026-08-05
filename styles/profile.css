@@ -1,0 +1,64 @@
+.profile-modal .modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-modal .modal-content .header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-modal .modal-content input[type="image"] {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.profile-modal .modal-content .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.profile-modal .modal-content .main p {
+  text-transform: capitalize;
+}
+
+.profile-modal .modal-content .main h3 {
+  font-size: 14px;
+}
+
+.profile-modal .modal-content .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-modal .modal-content .bottom button {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#edit {
+  background: black;
+  color: aliceblue;
+}
+
+#delete {
+  background: red;
+  color: aliceblue;
+}

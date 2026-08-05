@@ -13,7 +13,8 @@
     <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/feed.css" />
-    <link rel="stylesheet" href="/styles/post.css">
+    <link rel="stylesheet" href="/styles/post.css" />
+    <link rel="stylesheet" href="/styles/profile.css" />
     <script defer src="/scripts/script.js"></script>
     <title>MC - Merge Conflict</title>
   </head>
@@ -65,19 +66,39 @@
             <textarea name="post-text" id="post-text"></textarea>
           </div>
 
-          <input type="submit" value="post" class="submit-btn">
+          <input type="submit" value="post" class="submit-btn" />
         </form>
       </div>
     </div>
 
     <div id="profile-modal" class="profile-modal">
       <div id="modal-content" class="modal-content">
-        <h1>this is the profile modal</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
-          explicabo! Itaque laboriosam corporis vero architecto molestiae
-          voluptate voluptatibus, sit dignissimos.
-        </p>
+        <div class="header">
+          <input type="image" src="/assets/man.png" alt="profile pics" />
+          <h4>Oyebisi Mubarak</h4>
+          <small>@nofugazidev</small>
+        </div>
+
+        <div class="main">
+          <div class="followers">
+            <p>followers</p>
+            <h3>34</h3>
+          </div>
+  
+          <div class="posts">
+            <p>posts</p>
+            <h3>14</h3>
+          </div>
+      
+          <div class="likes">
+            <p>likes</p>
+            <h3>1004</h3>
+          </div>
+        </div>
+        <div class="bottom">
+          <button type="submit" id="edit">edit profile</button>
+          <button type="submit" id="delete">delete account</button>
+        </div>
       </div>
     </div>
 
