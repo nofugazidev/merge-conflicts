@@ -49,7 +49,8 @@
         <div class="header">
           <h3>merge - conflicts</h3>
         </div>
-        <div class="blogs"></div>
+        <div class="blogs" id="blogs">
+        </div>
       </div>
       <div class="trending"></div>
     </main>
@@ -57,17 +58,17 @@
     <div id="new-post-modal" class="new-post-modal">
       <div id="post-content" class="post-content">
         <h1>create new post</h1>
-        <form class="post-form">
+        <form class="post-form" id="post-form">
           <div class="title">
             <label for="title">title</label>
-            <input type="text" name="title" />
+            <input type="text" name="title" id="title" />
           </div>
           <div class="post-text">
             <label for="post-text">write here</label>
             <textarea name="post-text" id="post-text"></textarea>
           </div>
 
-          <input type="submit" value="post" class="submit-btn" />
+          <button type="submit" class="submit-btn" id="post-btn">post</button>
         </form>
       </div>
     </div>
