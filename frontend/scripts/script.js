@@ -58,8 +58,6 @@ newPost.addEventListener("submit", (e) => {
     blogContainer.appendChild(newPostTitle);
     blogContainer.appendChild(newPostText);
 
-    newPost.reset()
+    
   }
-
-
 });
